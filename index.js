@@ -30,7 +30,7 @@ mongoose
 
 app.use(
   cors({
-    origin: ["http://localhost:3000"],
+    origin: ["https://jwtauthentication.netlify.app"],
     methods: ["GET", "POST"],
     credentials: true,
   })
